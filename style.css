@@ -1,0 +1,76 @@
+hetml {
+    -webkit-tap-highlight-color: rgb(0, 0, 0, 0);
+}
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: #a20a0a; */
+    background-color: red;
+    background-image: url('https://cdn.glitch.global/be052a9b-ac9f-420b-8b51-2cfc432a21c2/bg_Santa.jpg?v=1646564052340');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+* {
+    box-sizing: border-box;
+}
+button {
+    margin-left: 100px;
+    border: none;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    padding: 20px;
+    background-color: rgba(251, 248, 249, 0.9);
+    border: 3px solid black;
+    text-align: center;
+    font-size: 60px;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.christmas {
+    margin-top: 50px;
+    height: 300px;
+    width: 200px;
+    border: 3px solid black;
+    background-color: rgba(251, 248, 249, 0.82);
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h4 {
+    font-size: 40px;
+}
+.red {
+    font-family: 'Staatliches', cursive;
+    font-size: 60px;
+    color: red;
+    border: none;
+}
+h3 {
+    font-size: 30px;
+}
+
+@media all and (max-width:800px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media all and (max-width:500px) {
+    h1 {
+        font-size: 30px;
+    }
+}
